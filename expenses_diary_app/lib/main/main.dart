@@ -1,8 +1,8 @@
-import 'package:expenses_diary_app/user_interface/pages/formulary/formulary.dart';
 import 'package:flutter/material.dart';
 
 import '../presentation/routes/routes.dart';
 import '../user_interface/pages/homepage/homepage.dart';
+import '../user_interface/pages/formulary/formulary.dart';
 
 void main() => runApp(const ExpensesDiary());
 

@@ -1,7 +1,7 @@
-import 'package:expenses_diary_app/presentation/routes/navigation_routes.dart';
 import 'package:flutter/material.dart';
 
 import '../../../utils/attributes/attributes.dart';
+import '../../../presentation/routes/routes.dart';
 
 class ExpensesDiaryHomepage extends StatelessWidget {
   const ExpensesDiaryHomepage({super.key});
@@ -12,9 +12,8 @@ class ExpensesDiaryHomepage extends StatelessWidget {
       appBar: AppBar(
         actions: <Widget>[
           IconButton(
-            onPressed: () {
-              Navigator.of(context).pushNamed(NavigationRoutes.formulary);
-            },
+            onPressed: () =>
+                Navigator.pushNamed(context, NavigationRoutes.formulary),
             icon: const Icon(
               Icons.add_circle_outline,
               size: 32,
