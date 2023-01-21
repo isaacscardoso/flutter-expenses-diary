@@ -1,0 +1,1 @@
+export './monetary_transaction_formulary.dart';

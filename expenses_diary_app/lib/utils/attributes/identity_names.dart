@@ -1,8 +1,11 @@
-const _titleOfTheAppBar = 'Expenses Diary';
+const _titleOfTheHomepageAppBar = 'Despesas Diárias';
+const _titleOfTheFormularyAppBar = 'Adicionar Despesa';
 const _deletionAlertMessage = '';
-const _messageFromTheHomeScreen = 'Under development...';
+const _messageFromTheHomeScreen = 'Em desenvolvimento...';
 
-String get titleOfTheAppBar => _titleOfTheAppBar;
+String get titleOfTheHomepageAppBar => _titleOfTheHomepageAppBar;
+
+String get titleOfTheFormularyAppBar => _titleOfTheFormularyAppBar;
 
 String get deletionAlertMessage => _deletionAlertMessage;
 
